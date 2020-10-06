@@ -10,7 +10,8 @@ Ellipsoid shape;
 void setup() {
   size(300, 300, P3D);
   shape = new Ellipsoid(100, 100, 100,24,12);
-  shape.texture(this, "earth.jpg").drawMode(S3D.TEXTURE);       
+  shape.texture(this, "earth.jpg").drawMode(S3D.TEXTURE);    
+  request();
 }
 
 void draw() {
