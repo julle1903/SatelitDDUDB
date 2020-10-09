@@ -8,7 +8,7 @@ PImage earth;
 PShape globe;
 
 void setup() {
-  size(1500, 1500, P3D);
+  size(1000, 1000, P3D);
   background(255);
   request();
   earth = loadImage("earth.jpg");
